@@ -20,7 +20,8 @@ namespace DevOpsDemo.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            string test = "test";
+            return View(test);
         }
 
         public IActionResult Privacy()
