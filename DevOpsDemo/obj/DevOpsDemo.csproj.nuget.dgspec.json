@@ -43,7 +43,11 @@
           "dependencies": {
             "Microsoft.Build": {
               "target": "Package",
-              "version": "[16.7.0, )"
+              "version": "[16.8.0, )"
+            },
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[16.8.0, )"
             }
           },
           "imports": [

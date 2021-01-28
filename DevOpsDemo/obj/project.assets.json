@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.Build/16.7.0": {
+      "Microsoft.Build/16.8.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Build.Framework": "16.7.0",
+          "Microsoft.Build.Framework": "16.8.0",
           "Microsoft.Win32.Registry": "4.3.0",
           "System.Collections.Immutable": "1.5.0",
           "System.Memory": "4.5.3",
@@ -22,7 +22,7 @@
           "lib/netcoreapp2.1/Microsoft.Build.dll": {}
         }
       },
-      "Microsoft.Build.Framework/16.7.0": {
+      "Microsoft.Build.Framework/16.8.0": {
         "type": "package",
         "dependencies": {
           "System.Security.Permissions": "4.7.0"
@@ -419,10 +419,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Build/16.7.0": {
-      "sha512": "FVXiam33J+jhkAuRabqvyxrYFInqvUBUJPAxz3HDw5OuQ9WXFvjsQ5Et01DtJqI0DLRLyGJKlTCJULPXw1JGSQ==",
+    "Microsoft.Build/16.8.0": {
+      "sha512": "AevS/k1Txc3p+XUc98a8UBiOhxoyds2IGXiTeRAJR8cwHNbafDp4J09y2OtzNiBsT+1q2+dtkDf/H8OkAjvBDw==",
       "type": "package",
-      "path": "microsoft.build/16.7.0",
+      "path": "microsoft.build/16.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -433,15 +433,15 @@
         "lib/netcoreapp2.1/Microsoft.Build.dll",
         "lib/netcoreapp2.1/Microsoft.Build.pdb",
         "lib/netcoreapp2.1/Microsoft.Build.xml",
-        "microsoft.build.16.7.0.nupkg.sha512",
+        "microsoft.build.16.8.0.nupkg.sha512",
         "microsoft.build.nuspec",
         "notices/THIRDPARTYNOTICES.txt"
       ]
     },
-    "Microsoft.Build.Framework/16.7.0": {
-      "sha512": "avlq0aLZC32SJjsNzP1FSA+NonsQ+0wx2tuTGTNbOHSzM+CkNbjJaFsA1dUYcPUPeDSRMj4fQ97RL+mX9Q3vZw==",
+    "Microsoft.Build.Framework/16.8.0": {
+      "sha512": "wCD7UB4E87q/dhXIq1RuY6KtAZNec8FhpLL3gizaqu/6LJrTEFFYULg6eANK4kmFMOwP8GJ06LRz5fqEQikw1Q==",
       "type": "package",
-      "path": "microsoft.build.framework/16.7.0",
+      "path": "microsoft.build.framework/16.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -452,7 +452,7 @@
         "lib/netstandard2.0/Microsoft.Build.Framework.dll",
         "lib/netstandard2.0/Microsoft.Build.Framework.pdb",
         "lib/netstandard2.0/Microsoft.Build.Framework.xml",
-        "microsoft.build.framework.16.7.0.nupkg.sha512",
+        "microsoft.build.framework.16.8.0.nupkg.sha512",
         "microsoft.build.framework.nuspec",
         "notices/THIRDPARTYNOTICES.txt"
       ]
@@ -1795,7 +1795,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.Build >= 16.7.0"
+      "Microsoft.Build >= 16.8.0",
+      "Microsoft.Build.Framework >= 16.8.0"
     ]
   },
   "packageFolders": {
@@ -1841,7 +1842,11 @@
         "dependencies": {
           "Microsoft.Build": {
             "target": "Package",
-            "version": "[16.7.0, )"
+            "version": "[16.8.0, )"
+          },
+          "Microsoft.Build.Framework": {
+            "target": "Package",
+            "version": "[16.8.0, )"
           }
         },
         "imports": [

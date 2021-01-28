@@ -34,3 +34,5 @@ C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\obj\Debug\netcoreapp3.
 C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\obj\Debug\netcoreapp3.1\DevOpsDemo.genruntimeconfig.cache
 C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\obj\Debug\netcoreapp3.1\DevOpsDemo.csproj.CopyComplete
 C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\bin\Debug\netcoreapp3.1\global.json
+C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\bin\Debug\netcoreapp3.1\Microsoft.Build.dll
+C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\bin\Debug\netcoreapp3.1\Microsoft.Build.Framework.dll
