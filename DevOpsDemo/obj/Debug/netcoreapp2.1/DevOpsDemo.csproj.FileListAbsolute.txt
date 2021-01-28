@@ -1,0 +1,4 @@
+C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\obj\Debug\netcoreapp2.1\DevOpsDemo.csprojAssemblyReference.cache
+C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\obj\Debug\netcoreapp2.1\DevOpsDemo.AssemblyInfoInputs.cache
+C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\obj\Debug\netcoreapp2.1\DevOpsDemo.AssemblyInfo.cs
+C:\Users\ramez.herrick\source\repos\DevOpsDemo\DevOpsDemo\obj\Debug\netcoreapp2.1\DevOpsDemo.csproj.CoreCompileInputs.cache
