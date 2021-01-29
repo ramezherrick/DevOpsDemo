@@ -25,6 +25,7 @@
       "DevOpsDemo/1.0.0": {
         "dependencies": {
           "Microsoft.Build": "16.8.0",
+          "Microsoft.Build.Framework": "16.8.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
